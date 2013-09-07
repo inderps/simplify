@@ -1,0 +1,60 @@
+body{
+    background-image: url("/src/images/background.png");
+    color: #ffffff;
+    margin-top: 300px;
+    font-family: 'Prosto One', cursive;
+    /*font-family: 'Chewy', cursive;*/
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Prosto One', cursive;
+    /*font-family: 'Chewy', cursive;*/
+}
+
+#iphone{
+    width: 350px;
+    height: 728px;
+    position: fixed;
+    background-image: url("/src/images/iphone.png");
+    right: 150px;
+    top: 50px;
+    z-index: 2;
+}
+
+.main{
+    margin: 0;
+    height: 300px;
+    width: 100%;
+    padding-top: 50px;
+    position: fixed;
+    background-image: url("/src/images/background.png");
+    color: #000;
+    z-index: 1;
+    top: 0;
+}
+
+.feature{
+    margin: 0;
+    height: 500px;
+}
+
+.feature h1{
+    line-height: 350px;
+}
+
+.no-color{
+   background-color: transparent;
+}
+
+.yellow {
+    background-color: #F3C242;
+}
+
+.blue{
+    background-color: #358ed4;
+}
+
+.green {
+    background-color: #34b489;
+}
+
