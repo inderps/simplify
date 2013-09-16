@@ -1,14 +1,11 @@
 body{
-    background-image: url("/src/images/background.png");
     color: #ffffff;
-    margin-top: 300px;
-    font-family: 'Prosto One', cursive;
-    /*font-family: 'Chewy', cursive;*/
+    font-family: 'Merriweather Sans', sans-serif;
+    background-image: url("/src/images/bg.png");
 }
 
 h1, h2, h3, h4, h5{
-    font-family: 'Prosto One', cursive;
-    /*font-family: 'Chewy', cursive;*/
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 #iphone{
@@ -22,24 +19,48 @@ h1, h2, h3, h4, h5{
 }
 
 .main{
-    margin: 0;
-    height: 300px;
-    width: 100%;
-    padding-top: 50px;
-    position: fixed;
-    background-image: url("/src/images/background.png");
+    margin-top: 200px;
     color: #000;
-    z-index: 1;
-    top: 0;
+    height: 500px;
+    background-color: transparent;
+}
+
+.screen{
+    width: 295px;
+    height: 443px;
+    position: fixed;
+    z-index: 3;
+    right: 176px;
+    top: 175px;
+}
+
+.footer{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
+    padding: 20px;
+    width: 100%;
+    background-color: #000000;
 }
 
 .feature{
-    margin: 0;
-    height: 500px;
+    height: 300px;
+    margin-bottom: 200px;
 }
 
-.feature h1{
-    line-height: 350px;
+.page{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
+    padding: 40px;
+    width: 100%;
+    min-height: 300px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.page h1, h2, h3, h4, h5{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
+}
+
+.feature h2{
+    line-height: 150px;
 }
 
 .no-color{
@@ -51,10 +72,38 @@ h1, h2, h3, h4, h5{
 }
 
 .blue{
-    background-color: #358ed4;
+    background-color: #0095b3;
 }
 
 .green {
     background-color: #34b489;
 }
 
+.red{
+    background-color: #e44442;
+}
+
+.black{
+    background-color: #2a2a2a;
+}
+
+.white{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.purple{
+    background-color: #8849ae;
+}
+
+a{
+    color: #ffffff;
+}
+
+a:hover{
+    color: #ffffff;
+}
+
+.reallyHide{
+    display: none !important;
+}
