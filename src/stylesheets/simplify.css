@@ -20,6 +20,8 @@ h1, h2, h3, h4, h5{
 
 .main{
     margin-top: 200px;
+    margin-left: 0;
+    margin-right: 0;
     color: #000;
     height: 500px;
     background-color: transparent;
@@ -35,10 +37,10 @@ h1, h2, h3, h4, h5{
 }
 
 .footer{
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
     padding: 20px;
     width: 100%;
     background-color: #000000;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
 }
 
 .feature{
@@ -56,7 +58,7 @@ h1, h2, h3, h4, h5{
 }
 
 .page h1, h2, h3, h4, h5{
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
+    margin-bottom: 25px;
 }
 
 .feature h2{
@@ -106,4 +108,31 @@ a:hover{
 
 .reallyHide{
     display: none !important;
+}
+
+.question{
+    font-weight: bold;
+}
+.answer{
+    list-style-type:none;
+    font-size: 16px;
+}
+
+.social-container p{
+    text-align: center;
+    padding-right: 20px;
+}
+
+.social-icon{
+  font-size: 60px;
+  margin-right: 10px;
+}
+
+a.social-icon-link{
+    color: #ffffff;
+}
+
+a.social-icon-link:hover{
+   text-decoration: none;
+    color: #34b489;
 }
