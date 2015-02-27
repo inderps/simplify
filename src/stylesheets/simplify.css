@@ -1,7 +1,7 @@
 body{
     color: #ffffff;
     font-family: 'Merriweather Sans', sans-serif;
-    background-image: url("/src/images/bg.png");
+    background-image: url("../images/bg.png");
 }
 
 h1, h2, h3, h4, h5{
@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5{
     width: 350px;
     height: 728px;
     position: fixed;
-    background-image: url("/src/images/iphone.png");
+    background-image: url("../images/iphone.png");
     right: 150px;
     top: 50px;
     z-index: 2;
